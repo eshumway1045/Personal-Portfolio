@@ -1,0 +1,116 @@
+:root {
+    --headercolor: #ffdead;
+    --aboutmecolor: #1e90ff;
+    --myworkcolor: #40e0d0;
+}
+*{
+    background-color: #fff8dc;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-color: var(--headercolor); 
+    border-bottom: 3px solid #000000;
+    background-size: cover;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+header img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0;
+
+}
+header h1 {
+    background-color: var(--headercolor);
+    margin: 0;
+    
+}
+header nav {
+    margin: 7px 0;
+    display: flex;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--headercolor);
+}
+header nav ul li{
+    background-color: var(--headercolor);
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px 20px;
+}
+header nav ul li a{
+    background-color: var(--headercolor);
+    margin: 10px 15px;
+}
+.my-bio h2{
+    background-color: var(--aboutmecolor);
+    font-size: 30px;
+    margin: 50px;
+}
+.my-bio article{
+    background-color:var(--aboutmecolor);
+}
+
+.my-projects h2{
+    background-color: var(--myworkcolor);
+    font-size: 30px;
+    margin: 50px;
+}
+.my-projects div{
+    background-color: var(--myworkcolor);
+}
+.buddy {
+    margin:50px;
+    background-image:;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    background-position: center;
+}
+
+footer{
+    background-color: var(--headercolor); 
+    border-top: 3px solid #000000;
+    background-size: cover;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    top: 3px;
+    text-align: center;
+
+}
+footer h2 {
+    font-size: 30px;
+    background-color: var(--headercolor);
+    margin: 50px;   
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--headercolor);
+}
+footer ul li{
+    background-color: var(--headercolor);
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px 20px;
+}
+footer ul li a, footer ul li address {
+    background-color: var(--headercolor);
+}
