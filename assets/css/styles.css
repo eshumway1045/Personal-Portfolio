@@ -1,10 +1,10 @@
 :root {
-    --headercolor: #ffdead;
-    --aboutmecolor: #1e90ff;
-    --myworkcolor: #40e0d0;
+    --headercolor: #3aafa9;
+    --mainText: #def2f1;
+    --subText: #17252a;
 }
 *{
-    background-color: #fff8dc;
+    background-color: #D1E8E2;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,14 +13,13 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header { 
-
+    background-color: var(--headercolor); 
     border-bottom: 3px solid #000000;
     background-size: cover;
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     z-index: 99999;
 
@@ -36,34 +35,40 @@ header {
 header h1 {
     margin: 0;
     width: 50%;
+    background-color: var(--headercolor);
     
 }
 header nav {
     margin: 7px 0;
     display: flex;
     width: 50%;
+    background-color: var(--headercolor);
 }
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    background-color: var(--headercolor);
 }
 header nav ul li{
     font-size: 30px;
     display: inline-block;
     padding: 5px 20px;
+    background-color: var(--headercolor);
 }
 header nav ul li a{
     margin: 10px 15px;
+    background-color: var(--headercolor);
 }
 .my-bio {
     display: flex;
     align-items: center;
-    background-color: var(--aboutmecolor);
+    background-color: var(--headercolor);
+    margin: 50px 0;
 }
 .my-bio h2{
-    background-color: var(--aboutmecolor);
+    background-color: var(--headercolor);
     font-size: 30px;
     margin: 50px;
     width: 400px;
@@ -71,52 +76,45 @@ header nav ul li a{
     padding: 150px 120px;
 }
 .my-bio article{
-    background-color:var(--aboutmecolor);
+    background-color:var(--headercolor);
 }
-.my-projects{
-    align-items: center;
+.projects-top {
     display: flex;
-    flex-wrap:wrap;
-    background-color: var(--myworkcolor);
+    flex-wrap: wrap;
+    margin: 50px 0;
 }
-.my-projects h2{
-    background-color: var(--myworkcolor);
+.projects-top h2 {
+    background-color: var(--headercolor);
     font-size: 30px;
-    margin: 50px;
-    width: 325px;
-    padding: 150px 120px;
+    width: 400px;
     border-right: 3px solid #000000;
+    padding: 150px 120px;
 }
-.my-projects div{
-    background-color: var(--myworkcolor);
+.projects {
+    display: flex;
+    flex-wrap: wrap;
 }
-.buddy {
-    margin:50px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    background-position: center;
+.top-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50%;
+}
+.top-project img {
+    height: auto;
+    width: 900px;
     
 }
-.buddy img {
-    position:relative;
-    width: 600px;
+.sub-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50%;
+}
+.sub-project img {
+    display: flex;
+    flex-wrap: wrap;
     height: auto;
-
+    width: 400px;
 }
-.buddy a{
-    left: 0;
-    position: relative;
-    text-align: center;
-    top: 30px;
-    width: 100%;
-}
-.project-img img{
-    position: relative;
-    width: 250px;
-    height: auto;
-}
-
 footer{
     background-color: var(--headercolor); 
     border-top: 3px solid #000000;
