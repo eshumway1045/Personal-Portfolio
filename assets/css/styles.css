@@ -1,10 +1,10 @@
 :root {
-    --headercolor: #3aafa9;
-    --mainText: #def2f1;
-    --subText: #17252a;
+    --headercolor: #0a1894;
+    --mainText: #dbdbdb;
+    /*--subText: #17252a;*/
 }
 *{
-    background-color: #D1E8E2;
+    background-color: #f3f3f3;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -22,6 +22,7 @@ header {
     flex-wrap: wrap;
     top: 0;
     z-index: 99999;
+    color: var(--mainText);
 
 }
 .profile-image {
@@ -36,6 +37,7 @@ header h1 {
     margin: 0;
     width: 50%;
     background-color: var(--headercolor);
+    color: var(--mainText);
     
 }
 header nav {
@@ -43,6 +45,7 @@ header nav {
     display: flex;
     width: 50%;
     background-color: var(--headercolor);
+    color: var(--mainText);
 }
 header nav ul {
     display: flex;
@@ -50,16 +53,19 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     background-color: var(--headercolor);
+    color: var(--mainText);
 }
 header nav ul li{
     font-size: 30px;
     display: inline-block;
     padding: 5px 20px;
     background-color: var(--headercolor);
+    color: var(--mainText);
 }
 header nav ul li a{
     margin: 10px 15px;
     background-color: var(--headercolor);
+    color: var(--mainText);
 }
 
 footer{
@@ -72,12 +78,14 @@ footer{
     flex-wrap:wrap;
     top: 3px;
     text-align: center;
+    color: var(--mainText);
 
 }
 footer h2 {
     font-size: 30px;
     background-color: var(--headercolor);
-    margin: 50px;   
+    margin: 50px; 
+    color: var(--mainText);  
 }
 footer ul{
     display: flex;
@@ -85,16 +93,19 @@ footer ul{
     justify-content: space-between;
     list-style: none;
     background-color: var(--headercolor);
+    color: var(--mainText);
 }
 footer ul li{
     background-color: var(--headercolor);
     font-size: 30px;
     display: inline-block;
     padding: 5px 20px;
+    color: var(--mainText);
 }
 footer ul li a, footer ul li address, footer ul li p {
     background-color: var(--headercolor);
     margin: auto;
+    color: var(--mainText);
 }
 .projects {
     width: 100%;
@@ -102,6 +113,7 @@ footer ul li a, footer ul li address, footer ul li p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
   }
   .my-projects h2{
       text-align: center;
